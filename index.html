@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Interest Amount Calculator</h2>
+    <form id="interestForm">
+        <label for="amount">Enter Amount:</label>
+        <input type="number" id="amount" placeholder="Enter the amount" required>
+
+        <label for="interestRate">Enter Interest Rate (%):</label>
+        <input type="number" id="interest" placeholder="Enter the interest rate" required>
+
+        <button type="button" onclick="calculateInterest()">Calculate Interest</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
